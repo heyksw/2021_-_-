@@ -25,5 +25,6 @@ C++ 에서 Python과 마찬가지로 sort() 내장 함수를 제공한다.
 #include <algorithm> 을 해주며 사용할 있다.   
 한편, 반대로 정렬하고 싶다면?   
 #include <functional> 을 추가해주고,   
-sort(a.begin(), a.end(), greater<int>()) 해주면 된다.
+sort(a.begin(), a.end(), greater<int>()) 해주면 된다.   
+또는, compare 함수르 커스텀한다.
 
