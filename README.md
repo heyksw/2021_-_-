@@ -13,6 +13,6 @@ multiset<int>::iterator it = ms.find(value);
 
 ms.erase(it);
 ```
-이렇게 해야 중복되는 값중에 한개만 지워짐.
+이렇게 해야 중복되는 값중에 한 개만 지워짐.
 
 
