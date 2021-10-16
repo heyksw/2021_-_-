@@ -29,4 +29,4 @@ sort(a.begin(), a.end(), greater<int>()) 해주면 된다.
 또는, compare 함수르 커스텀한다.   
 
 ### Week3_A
-parent를 일일ㅇ 찾아나서면 시간초과가 발생하는 문제.
+parent를 일일이 찾아나서면 시간초과가 발생하는 문제.
