@@ -20,9 +20,10 @@ vector와 queue의 개념.
 queue는 선언할때 <> 꺽쇠안에 타입도 지정 해줘야함.
 
 ### Week2_B
-vector의 정렬.   
+vector의 정렬, pair 개념.   
 C++ 에서 Python과 마찬가지로 sort() 내장 함수를 제공한다.   
 #include <algorithm> 을 해주며 사용할 있다.   
 한편, 반대로 정렬하고 싶다면?   
 #include <functional> 을 추가해주고,   
 sort(a.begin(), a.end(), greater<int>()) 해주면 된다.
+
