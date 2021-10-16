@@ -26,5 +26,7 @@ C++ 에서 Python과 마찬가지로 sort() 내장 함수를 제공한다.
 한편, 반대로 정렬하고 싶다면?   
 #include <functional> 을 추가해주고,   
 sort(a.begin(), a.end(), greater<int>()) 해주면 된다.   
-또는, compare 함수르 커스텀한다.
+또는, compare 함수르 커스텀한다.   
 
+### Week3_A
+parent를 일일ㅇ 찾아나서면 시간초과가 발생하는 문제.
