@@ -15,4 +15,8 @@ ms.erase(it);
 ```
 이렇게 해야 중복되는 값중에 한 개만 지워짐.
 
+### Week2_A
+vector와 queue의 개념.   
+vector<queue<string>> friends; 이 선언문.
+
 
