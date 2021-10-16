@@ -4,7 +4,7 @@
 집중해서 연산 실수 안하면 되는 문제
 
 ### Week1_B
-multiset과 iterator 개념으 숙지해야 하는 문제
+multiset과 iterator 개념을 숙지해야 하는 문제
 
 ```cpp
 multiset<int> ms;   
