@@ -17,6 +17,6 @@ ms.erase(it);
 
 ### Week2_A
 vector와 queue의 개념.   
-vector<queue<string>> friends; 이 선언문.
+vector<queue<string>> friends; 이 선언문. 
 
 
