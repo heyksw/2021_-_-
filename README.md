@@ -49,7 +49,7 @@ C++ 의 pair를 활용해야 점의 대소비교가 하기 쉬워진다.
 O(N^2) time의 Naive 알고리즘을 작성하면 통과 못하는 문제.   
 KMP 알고리즘으로 풀어야할 것 같지만,   
 Rabin-Karp 알고리즘으로 풀고 싶다.   
-pow() 함수는 #include <cmath> 에 있다.
+pow() 함수는 cmath 에 있다.
 
   
 ### Week5_B : 마을 재개발
