@@ -12,6 +12,8 @@ multiset<int> ms;
 multiset<int>::iterator it = ms.find(value);   
 
 ms.erase(it);
+
+*total.begin() 이 최소, *total.rbegin() 이 최대.
 ```
 이렇게 해야 중복되는 값중에 한 개만 지워짐.
 
