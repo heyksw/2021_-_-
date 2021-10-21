@@ -20,8 +20,8 @@ block.pop();
 multiset<int>::iterator it = total.find(now);
 total.erase(it);
 ```
-이렇게 해야 중복되는 값중에 한 개만 지워짐.
-
+multiset을 사용해야 중복되는 값중에 한 개만 지워짐.   
+set을 사용하면 중복된 값이 한꺼번에 함께 삭제됨.
 ### Week2_A : 시험 준비 (문장 맞추기)
 vector와 queue의 개념.   
 queue는 선언할때 <> 꺽쇠안에 타입도 지정 해줘야함.
