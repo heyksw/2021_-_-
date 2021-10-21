@@ -7,13 +7,18 @@
 multiset과 iterator 개념을 숙지해야 하는 문제
 
 ```cpp
-multiset<int> ms;   
+// 삽입
+block.push(x);
+total.insert(x);
+            
+cout<<*total.begin()<<" "<<*total.rbegin()<<'\n';
 
-multiset<int>::iterator it = ms.find(value);   
-
-ms.erase(it);
-
-*total.begin() 이 최소, *total.rbegin() 이 최대.
+// 삭제
+int now = block.top();
+block.pop();
+            
+multiset<int>::iterator it = total.find(now);
+total.erase(it);
 ```
 이렇게 해야 중복되는 값중에 한 개만 지워짐.
 
