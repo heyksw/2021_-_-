@@ -84,8 +84,12 @@ N 일 마다 K 번째로 가까운 가게를 선택해야 하는데, 매일 정�
 c++ 에서는 queue 를 include 하고 priority_queue를 사용할 수 있다.   
 기본 문법 : <code>priority_queue< Position, vector< Position >, compare > pq; </code>   
 그냥 vector 의 sort 에서는 bool compare() 함수를 만들어서 사용해도 됐었지만,   
-priority_queue 에서는 struct compare 안에 bool operator()(Position p1, Position p2) 이렇게 해줘야한다.   
-그리고 우선순위 큐의 크기는 K 만큼만 고정해서 풀어야 타임리밋이 안난다.   
+priority_queue 에서는 struct compare 안에 bool operator()(Position p1, Position p2) 이렇게 해줘야한다.  
+            
+그리고 vector 의 sort 에 필요한 compare 는 오름차순 정렬 하려면 return a < b 하면 되지만,   
+pq 는 우선순위를 매기는 개념이기 때문에 a > b 를 해야 a 가 top 쪽으로 가서 일찍 pop 된다.   
+            
+이 문제에서 우선순위 큐의 크기는 K 만큼만 고정해서 풀어야 타임리밋이 안난다.   
 참고로, queue 는 front() 이지만 priority_queue 는 top() 이다.
 
 ### Week10_B : 마트료시카
