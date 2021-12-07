@@ -69,5 +69,11 @@ priority_queue 문법을 잘 알아야 하는 문제.
 우선순위큐로 힙 연산을 실수없이 진행하면 어렵지 않게 풀 수 있다.   
 functional을 include 하고 greater<pair<int,int>> 를 사용해서 대소 비교.
             
-### Week_B : 탈출
+### Week6_B : 탈출
 BFS 문제. 8방향 잘 생각해주고, 소총수와 검사의 범위만 잘 고려하면 된다.
+
+***
+
+### Week10_B : 마트료시카
+dp table 값을 0이 아니라 1로 초기화 해줘야한다.
+
