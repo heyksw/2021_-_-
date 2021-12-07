@@ -82,7 +82,7 @@ BFS 활용해서 푸는 문제
 N 일 마다 K 번째로 가까운 가게를 선택해야 하는데, 매일 정렬을 하면 타임리밋이 난다.   
 그래서 계속 정렬을 하는 것보다는 힙 자료구조를 사용하는 것이 좋다.  
 c++ 에서는 queue 를 include 하고 priority_queue를 사용할 수 있다.   
-기본 문법 : <code>priority_queue< Position, vector<<Position>>, compare > pq; </code>
+기본 문법 : <code>priority_queue< Position, vector< Position >, compare > pq; </code>
 그냥 vector 의 sort 에서는 bool compare() 함수를 만들어서 사용해도 됐었지만,   
 priority_queue 에서는 struct compare 안에 bool operator()(Position p1, Position p2) 이렇게 해줘야한다.
 그리고 우선순위 큐의 크기는 K 만큼만 고정해서 풀어야 타임리밋이 안난다.   
