@@ -92,6 +92,10 @@ pq 는 우선순위를 매기는 개념이기 때문에 a > b 를 해야 a 가 t
 이 문제에서 우선순위 큐의 크기는 K 만큼만 고정해서 풀어야 타임리밋이 안난다.   
 참고로, queue 는 front() 이지만 priority_queue 는 top() 이다.
 
+### Week9_A : 등비급수
+분할 정복으로 푸는 문제.   
+N이 짝수일 때랑 홀수 일때 잘 나누고, pair<long long, long long> 에 exp 와 sum 을 담으면 된다.   
+            
 ### Week10_B : 마트료시카
 dp table 값을 0이 아니라 1로 초기화 해줘야한다.
 
